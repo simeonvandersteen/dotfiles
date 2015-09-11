@@ -37,9 +37,10 @@ let g:airline_powerline_fonts = 1
 "" buffer stuff
 nmap <Leader>d :bnext<CR>
 nmap <Leader>a :bprevious<CR>
-nmap <Leader>q :bd<CR>
+nmap <Leader>w :bd<CR>
 nmap <Leader>s :w<CR>
 nmap <Leader>S :wa<CR>
+nmap <Leader>q :%s/\s\+$<CR>
 
 "" ctrlp-funky stuff
 nnoremap <Leader>fu :CtrlPFunky<CR>
