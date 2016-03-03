@@ -1,11 +1,12 @@
 # home
 Files in used in home directory.
 
-TODO: detect debian/osx, place correct scripts based on that
+TODO: check if "git curl zsh (>=4.3.9) vim" are installed
 
 ```
-$ git submodule update --init --recursive
-$ cp -r \.* ../
-$ vi +PluginInstall +qall
+# Install iTerm2
+# Install Powerline fonts
+# Select 11pt Meslo LG M DZ Regular for Powerline
+# Select Solarized Dark color scheme
+$ ./install.sh
 ```
-
