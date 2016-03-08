@@ -8,4 +8,4 @@ BULLETTRAIN_EXEC_TIME_SHOW=true
 BULLETTRAIN_TIME_SHOW=false
 
 # for lm
-LC_ALL=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
