@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+filetype on
 filetype off                  " required
 syntax on
 set hidden
