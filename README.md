@@ -6,7 +6,6 @@ TODO: check if "git curl zsh (>=4.3.9) vim" are installed
 ```
 # Install iTerm2
 # Install Powerline fonts
-# Select 11pt Meslo LG M DZ Regular for Powerline
-# Select Solarized Dark color scheme
+# Point iTerm2 config to the one in dotfiles
 $ ./install.sh
 ```
