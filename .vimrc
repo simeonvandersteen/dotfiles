@@ -50,4 +50,3 @@ nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<CR>
 "" auto comment
 vmap <Leader>c :s!^!//!<CR>
 vmap <Leader>C :s!^//!!<CR>
-
