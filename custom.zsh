@@ -16,3 +16,8 @@ BULLETTRAIN_RUBY_SHOW=false
 
 # for lm
 export LC_ALL=en_US.UTF-8
+
+# undo annoying alias in common-aliases
+alias rm='rm -f'
+alias cp='cp -f'
+alias mv='mv -f'
