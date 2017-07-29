@@ -2,17 +2,28 @@
 ZSH_THEME="bullet-train"
 
 BULLETTRAIN_DIR_EXTENDED=2
-BULLETTRAIN_EXEC_TIME_SHOW=true
-BULLETTRAIN_TIME_SHOW=false
 
-BULLETTRAIN_CONTEXT_SHOW=true
 BULLETTRAIN_CONTEXT_DEFAULT_USER=simeon
 BULLETTRAIN_CONTEXT_BG=blue
 BULLETTRAIN_CONTEXT_FG=white
 
 #BULLETTRAIN_IS_SSH_CLIENT=true
 
-BULLETTRAIN_RUBY_SHOW=false
+BULLETTRAIN_PROMPT_ORDER=(
+    status
+    custom
+    context
+    dir
+    perl
+    virtualenv
+    nvm
+    aws
+    go
+    elixir
+    git
+    hg
+    cmd_exec_time
+)
 
 # for lm
 export LC_ALL=en_US.UTF-8
