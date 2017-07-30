@@ -25,6 +25,6 @@ BULLETTRAIN_PROMPT_ORDER=(
 export LC_ALL=en_US.UTF-8
 
 # undo annoying alias in common-aliases
-alias rm='rm -f'
-alias cp='cp -f'
-alias mv='mv -f'
+unalias rm
+unalias cp
+unalias mv
