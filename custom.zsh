@@ -14,12 +14,8 @@ BULLETTRAIN_PROMPT_ORDER=(
     custom
     context
     dir
-    perl
     virtualenv
-    nvm
     aws
-    go
-    elixir
     git
     hg
     cmd_exec_time
