@@ -11,7 +11,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 cp custom.zsh ~/.oh-my-zsh/custom/
 mkdir ~/.oh-my-zsh/custom/themes
 curl -fsSL -o ~/.oh-my-zsh/custom/themes/bullet-train.zsh-theme https://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
-chsh -s /bin/zsh
 ```
 ### vim
 ```
